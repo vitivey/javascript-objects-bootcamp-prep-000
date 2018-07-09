@@ -3,6 +3,7 @@ var playlist = {BunjiGarlin: "Fire",
   Voice: "Believe"
 }
 function updatePlaylist(object, artist, song){
+  object[artist]=song
   return object
 }
 function removeFromPlaylist(object, artist){
